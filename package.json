@@ -1,0 +1,20 @@
+{
+  "name": "tp02",
+  "version": "1.0.0",
+  "description": "Primer tp en node",
+  "homepage": "https://github.com/LulCas-ai/Tp02DAI#readme",
+  "bugs": {
+    "url": "https://github.com/LulCas-ai/Tp02DAI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LulCas-ai/Tp02DAI.git"
+  },
+  "license": "ISC",
+  "author": "Lucas y andy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
