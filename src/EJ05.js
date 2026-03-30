@@ -1,0 +1,23 @@
+
+
+
+let miUrl    = null;
+
+let miObjeto = null;
+
+miUrl    = 'http://www.ort.edu.ar:8080/alumnos/index.htm?curso=2022&mes=mayo';
+
+miObjeto = parsearUrl(miUrl);
+
+console.log(miObjeto);
+
+
+function parsearUrl(laURL){
+
+    const miDireccion = new URL(laURL);
+
+    return miDireccion
+
+}
+
+console.log(miObjeto.host + " " + miObjeto.pathname + " " + miObjeto.searchParams)

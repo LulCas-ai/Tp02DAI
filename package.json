@@ -19,6 +19,7 @@
     "EJ02": "node src/EJ02.js",
     "EJ01": "node src/EJ01.js",
     "EJ03": "node src/EJ03.js",
-    "EJ04": "node src/EJ04.js"
+    "EJ04": "node src/EJ04.js",
+    "EJ05": "node src/EJ05.js"
   }
 }
