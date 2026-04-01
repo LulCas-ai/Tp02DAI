@@ -1,30 +1,24 @@
-let miUrl    = null;
+let miUrl = null;
 
 let miObjeto = null;
 
-miUrl    = 'https://filingo.com';
-
-miObjeto = parsearUrl(miUrl);
-
-console.log(miObjeto);
+miUrl = 'http://campus.ort.edu.ar/secundaria/almagro/informatica/tp/2349069/02-introduccion-a-node';
+parsearUrl(miUrl)
 
 
-function parsearUrl(laURL){
+function parsearUrl(laURL) {
 
     try {
         const miDireccion = new URL(laURL);
-
-        return miDireccion
+        console.log(
+            miDireccion.host + "\n" +
+            miDireccion.pathname + "\n" +
+            miDireccion.searchParams.toString()
+        );
     } catch (error) {
-        console.log("Error: " + error)
-        return null;
+        console.log(error.toString())
+
     }
-    
+
 
 }
-
-console.log(
-  miObjeto.host + " " +
-  miObjeto.pathname + " " +
-  miObjeto.searchParams.toString()
-);
