@@ -18,6 +18,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "EJ02": "node src/EJ02.js",
     "EJ01": "node src/EJ01.js",
-    "EJ03": "node src/EJ03.js"
+    "EJ03": "node src/EJ03.js",
+    "EJ07": "node src/EJ07.js"
+  },
+  "dependencies": {
+    "currency-map-country": "^1.0.12"
   }
 }
