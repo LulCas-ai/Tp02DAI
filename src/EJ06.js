@@ -23,4 +23,8 @@ function parsearUrl(laURL){
 
 }
 
-console.log(miObjeto.host + " " + miObjeto.pathname + " " + miObjeto.searchParams) 
+console.log(
+  miObjeto.host + " " +
+  miObjeto.pathname + " " +
+  miObjeto.searchParams.toString()
+);

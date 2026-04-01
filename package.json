@@ -18,6 +18,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "EJ02": "node src/EJ02.js",
     "EJ01": "node src/EJ01.js",
-    "EJ03": "node src/EJ03.js"
+    "EJ03": "node src/EJ03.js",
+    "EJ04": "node src/EJ02.js",
+    "EJ05": "node src/EJ01.js",
+    "EJ06": "node src/EJ03.js"
   }
 }
